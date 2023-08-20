@@ -27,5 +27,5 @@ await crawler.addRequests([
 log.info('Starting the crawl.');
 await crawler.run();
 const dataset = await Dataset.open()
-await KeyValueStore.setValue('Output', (await dataset.getData()).items);
+await KeyValueStore.setValue('OUTPUT', (await dataset.getData()).items);
 log.info('Crawl finished.');
