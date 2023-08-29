@@ -1,15 +1,21 @@
 {
-    "name": "amazon-crawler",
-    "version": "0.0.1",
-    "type": "module",
-    "description": "This is an example of a Crawlee project.",
-    "dependencies": {
-        "crawlee": "^3.0.0"
-    },
-    "scripts": {
-        "start": "node src/main.js",
-        "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
-    },
-    "author": "It's not you it's me",
-    "license": "ISC"
+  "name": "amazon-crawler",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "This is an example of a Crawlee project.",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "crawlee": "^3.0.0",
+    "user-agents": "^1.0.1444"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+  },
+  "author": "Electrical Era",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [],
+  "devDependencies": {}
 }
